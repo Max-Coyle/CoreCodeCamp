@@ -150,9 +150,6 @@ namespace CoreCodeCamp.Controllers
             {
                 return this.StatusCode(StatusCodes.Status500InternalServerError, "Database failure");
             }
-
-            return BadRequest();
-
         }
     }
 }
